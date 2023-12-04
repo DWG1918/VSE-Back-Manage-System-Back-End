@@ -25,7 +25,7 @@ public class MailSender {
         // 开启debug调试，以便在控制台查看
         prop.setProperty("mail.debug", "true");
         // 设置邮件服务器主机名为QQ邮箱的服务器主机名
-        prop.setProperty("mail.host", "smtp.qq.com");
+        prop.setProperty("mail.host", "smtp.163.com");
         // 发送服务器需要身份验证
         prop.setProperty("mail.smtp.auth", "true");
         // 设置发送邮件协议名称为SMTP(Simple Mail Transfer Protocol)
@@ -42,11 +42,11 @@ public class MailSender {
         // 通过session得到transport对象
         Transport ts = session.getTransport();
         // 连接邮件服务器：邮箱类型，帐号，授权码代替密码（更安全）
-        ts.connect("smtp.qq.com", "3155002905", "blmkcdggktphdgdb");
+        ts.connect("smtp.163.com", "wwj2245630416", "NRSTOLSKXBBCATEK");
         // 创建邮件
         Message message = new MimeMessage(session);
         // 指明邮件的发件人
-        message.setFrom(new InternetAddress("3155002905@qq.com"));
+        message.setFrom(new InternetAddress("wwj2245630416@163.com"));
         // 指明邮件的收件人
         message.setRecipient(Message.RecipientType.TO, new InternetAddress(email));
         // 邮件的标题

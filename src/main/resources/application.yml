@@ -12,9 +12,9 @@ spring:
     username: lyf
     password: Lyf415926
   mail: #邮箱smtp服务配置
-    host: smtp.qq.com #服务器邮箱地址，由邮箱官方提供
-    username: 417695971@qq.com #账号
-    password: drvvnzlqxbddcahd #授权码
+    host: smtp.163.com #服务器邮箱地址，由邮箱官方提供
+    username: wwj2245630416@163.com #账号
+    password: NRSTOLSKXBBCATEK #授权码
     protocol: smtp #一般无需修改
     default-encoding: utf-8
   # redis配置
@@ -48,9 +48,9 @@ mybatis-plus:
 aliyun:
   oss: #阿里云oss服务配置
     endpoint: oss-cn-shanghai.aliyuncs.com
-    accessKeyId: LTAI5tATBtZizUEmV6A64EAM
-    accessKeySecret: drBE1YKrafkP0jKpGeLxPI4ZrRpfMY
-    bucketName: virtual-experiment-system
+    accessKeyId: LTAI5t7cDtX678XRNTEQb1Ki
+    accessKeySecret: 93dAPYBxVGmjcqXez2KVkLmU8CzevX
+    bucketName: vse-test
 
 logging:
   level:
