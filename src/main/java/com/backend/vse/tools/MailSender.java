@@ -42,11 +42,11 @@ public class MailSender {
         // 通过session得到transport对象
         Transport ts = session.getTransport();
         // 连接邮件服务器：邮箱类型，帐号，授权码代替密码（更安全）
-        ts.connect("smtp.163.com", "wwj2245630416", "NRSTOLSKXBBCATEK");
+        ts.connect("smtp.tongji.edu.cn", "2052306", "5EsNKXNQrUqmXTtJ");
         // 创建邮件
         Message message = new MimeMessage(session);
         // 指明邮件的发件人
-        message.setFrom(new InternetAddress("wwj2245630416@163.com"));
+        message.setFrom(new InternetAddress("2052306@tongji.edu.cn"));
         // 指明邮件的收件人
         message.setRecipient(Message.RecipientType.TO, new InternetAddress(email));
         // 邮件的标题

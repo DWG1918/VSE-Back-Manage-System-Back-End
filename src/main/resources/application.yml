@@ -12,9 +12,9 @@ spring:
     username: lyf
     password: Lyf415926
   mail: #邮箱smtp服务配置
-    host: smtp.163.com #服务器邮箱地址，由邮箱官方提供
-    username: wwj2245630416@163.com #账号
-    password: NRSTOLSKXBBCATEK #授权码
+    host: smtp.tongji.edu.cn #服务器邮箱地址，由邮箱官方提供
+    username: 2052306@tongji.edu.cn #账号
+    password: 5EsNKXNQrUqmXTtJ #授权码
     protocol: smtp #一般无需修改
     default-encoding: utf-8
   # redis配置
